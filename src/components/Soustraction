@@ -1,0 +1,14 @@
+const Soustraction = (props) => {
+    return(
+        <p
+          onClick={() => {
+            props.setCounter(props.counter - 1);
+          }}
+        >
+          -
+        </p>
+
+    )
+}
+
+export default Soustraction;

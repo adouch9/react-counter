@@ -1,20 +1,25 @@
 body {
-  background: white;
+  background: red;
+  display: flex;
+  justify-content: center;
+  margin-top: 230px;
+
 }
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
   background: lavender;
- 
-  
- 
+  display: flex;
+  flex-direction:column;
+  /* align-items: center;
+   */
 }
 
 div {
   /* margin-top: 250px; */
   display: flex;
-  flex-direction: row;
+flex-direction: row;
   /* text-align: center; */
 }
 
@@ -39,7 +44,6 @@ p {
   cursor: pointer;
 }
 
-#reset{
+#reset {
   background: salmon;
- 
 }
